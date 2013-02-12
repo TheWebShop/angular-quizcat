@@ -1,0 +1,32 @@
+@import "compass_twitter_bootstrap";
+
+body {
+  padding: 60px;
+}
+.quiz-list-header h1, .quiz-header h1, .quiz-result-header h1 {
+  margin-bottom: 40px;
+}
+.quizcat-github-link {
+  margin: 20px;
+}
+.quiz-list-date {
+  float: right;
+}
+.quiz-list-controls {
+  margin-bottom: 0;
+}
+.quiz-list-controls .control-group {
+  float: left;
+}
+.question {
+  padding-bottom: 20px;
+}
+.answers {
+  list-style-type: upper-alpha;
+  margin: 20px 40px;
+}
+
+// TODO: update https://github.com/kristianmandrup/compass-twitter-bootstrap
+label, select, button, input[type="button"], input[type="reset"], input[type="submit"], input[type="radio"], input[type="checkbox"] {
+  cursor: pointer;
+}

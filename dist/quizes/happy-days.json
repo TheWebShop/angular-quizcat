@@ -1,0 +1,106 @@
+{
+  "id": "happy-days", 
+  "name": "Happy Days Quiz", 
+  "snippet": "The happy days quiz is an excerpt of questions from <a href=\"http://www.quizmoz.com/quizzes/TV-Channels-and-Show-Quizzes/h/Happy-Days-Quiz.asp\">QuizMoz Happy Days Quiz</a>. It will tests your knowledge of the popular TV show from the 70s and 80s. The Happy Days Quiz questions are carefully crafted so you can gauge how much you know about Richie and the gang.",
+  "created": "2013-02-09",
+  "questions": [
+    {
+      "question": "In what year did \"Happy Days\" debut?",
+      "answers": [
+        "1972",
+        "1976",
+        "1974",
+        "1980"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "We saw very little of Richie and Joanie's older brother. He was quickly written out of the show. What was his name?",
+      "answers": [
+        "Darryl",
+        "Tom",
+        "Roger",
+        "Chuck"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "The first two seasons of \"Happy Days\" were shot in front of a life audience.",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Marion Ross and what other actor from \"Happy Days\" were the only actors to stay with the show from its pilot to the very end. Who is the other actor?",
+      "answers": [
+        "Tom Bosley",
+        "Henry Winkler",
+        "Anson Williams",
+        "Donny Most"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Ralph's father did what for a living?",
+      "answers": [
+        "Owns a grocery store",
+        "Owns a hardware store",
+        "Optometry",
+        "Dentistry"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What would Ralph Malph say after telling a joke?",
+      "answers": [
+        "\"Sit on it!\"",
+        "\"Wa wa wa\"",
+        "\"What's so funny?\"",
+        "\"I still got it\""
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "What was the name of Leather Tuscadero's band?",
+      "answers": [
+        "The Pink Hops",
+        "The Suedes",
+        "The Comets",
+        "The Falcons"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "what was fonzi's jaket coler in the first couple seasons",
+      "answers": [
+        "Blue",
+        "Black through out the entire show",
+        "Gray",
+        "Pink"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What do Potsie and Richie have to do to get into the Demons?",
+      "answers": [
+        "Dress like women",
+        "Steal a car",
+        "Streak",
+        "Graffiti"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Who challenged Fonzie to jump the shark?",
+      "answers": [
+        "Chachi",
+        "Richie",
+        "The California Kid",
+        "Roger"
+      ],
+      "correctAnswer": 2
+    }
+  ]
+}

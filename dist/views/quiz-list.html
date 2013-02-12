@@ -1,0 +1,36 @@
+<header class="quiz-list-header hero-unit">
+  <h1>Quiz Catalogue</h1>
+  <p>Built using <a href="http://angularjs.org/img/AngularJS-small.png">AngularJS</a> with the help of <a href="http://yeoman.io/">Yeoman</a>. It is a simple application for the consumption of multiple choice question quizes stored as static <code>.json</code> files.<a href="https://github.com/TheWebShop/angular-quizcat" class="quizcat-github-link btn btn-large btn-primary pull-right">Project Github</a></p>
+</header>
+
+
+<form class="quiz-list-controls form-horizontal clearfix">
+
+  <div class="control-group">
+    <label class="control-label" for="inputSearch">Search</label>
+
+    <div class="controls">
+      <input id="inputSearch" ng-model="query">
+    </div>
+  </div>
+
+  <div class="control-group">
+    <label class="control-label" for="inputOrderBy">Sort by</label>
+
+    <div class="controls">
+      <select id="inputOrderBy" ng-model="orderProp">
+        <option value="name">Alphabetical</option>
+        <option value="created">Newest</option>
+      </select>
+    </div>
+  </div>
+
+</form>
+
+
+<ul class="quizes unstyled">
+  <li ng-repeat="quiz in quizes | filter:query | orderBy:orderProp" class="well">
+    <a href="#/quiz/{{quiz.id}}">{{quiz.name}}</a><div class="quiz-list-date muted">Created {{quiz.created.format('MMM D, YYYY')}}</div>
+    <p ng-bind-html-unsafe="quiz.snippet"></p>
+  </li>
+</ul>

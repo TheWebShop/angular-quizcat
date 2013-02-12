@@ -1,0 +1,49 @@
+# Error: Unknown provider: aProvider <- a
+    at http://localhost:3501/components/angular/angular.js:2652
+    at getService (http://localhost:3501/components/angular/angular.js:2780)
+    at http://localhost:3501/components/angular/angular.js:2657
+    at getService (http://localhost:3501/components/angular/angular.js:2780)
+    at invoke (http://localhost:3501/components/angular/angular.js:2798)
+    at instantiate (http://localhost:3501/components/angular/angular.js:2830)
+    at http://localhost:3501/components/angular/angular.js:4657
+    at update (http://localhost:3501/components/angular/angular.js:13959)
+    at http://localhost:3501/components/angular/angular.js:8155
+    at http://localhost:3501/components/angular/angular.js:7312
+    at http://localhost:3501/components/angular/angular.js:6693
+    at http://localhost:3501/components/angular/angular.js:6693
+    at http://localhost:3501/components/angular/angular.js:6730
+    at http://localhost:3501/components/angular/angular.js:7905
+    at http://localhost:3501/components/angular/angular.js:7770
+    at http://localhost:3501/components/angular/angular.js:7991
+    at done (http://localhost:3501/components/angular/angular.js:9001)
+    at completeRequest (http://localhost:3501/components/angular/angular.js:9141)
+    at http://localhost:3501/components/angular/angular.js:9112 (undefined, #undefined)
+CACHE MANIFEST
+
+# Time: Tue Feb 12 2013 00:18:47 GMT-0800 (PST)
+# This manifest was created by confess.js, http://github.com/jamesgpearce/confess
+#
+# Retrieved URL: http://localhost:3501/#/quizes
+# User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.12 Safari/535.11
+#
+# Config:
+#  task: appcache
+#  userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.12 Safari/535.11
+#  wait: 0
+#  consolePrefix: #
+#  verbose: true
+#  appcache:
+#   urlsFromDocument: true
+#   urlsFromRequests: false
+#   cacheFilter: .*
+#   networkFilter: null
+#  url: http://localhost:3501
+#  configFile: /usr/local/lib/node_modules/yeoman/lib/support/confess.json
+
+CACHE:
+components/angular/angular.js
+scripts/e78ca41e.scripts.js
+styles/051c0509.main.css
+
+NETWORK:
+*
