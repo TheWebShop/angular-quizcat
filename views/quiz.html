@@ -1,0 +1,25 @@
+<header class="hero-unit quiz-header">
+  <h1>{{quiz.name}}</h1>
+  <p ng-bind-html-unsafe="quiz.snippet"></p>
+  <p ng-show="isReplay()" class="pull-right">Your score to beat is {{lastScore}}/{{quizSize}}</p>
+</header>
+
+<div class="quiz-view">
+    <div class='question'>
+        <p class="question-text lead">
+          <strong class="question-progress">{{currentPosition+1}}/{{quizSize}}</strong>
+          {{currentQuestion.text}}
+        </p>
+        <ol class="answers">
+          <li class="answer" ng-repeat="answer in currentQuestion.options">
+            <label class="radio" for="answer-{{$index}}"><input type="radio" name="answer" id="answer-{{$index}}" ng-model="$parent.currentResponse" value="{{$index}}" />{{answer}}</label>
+          </li>
+        </ol>
+    </div>
+</div>
+
+<footer class='footer well'>
+    <a class='quit btn btn-large btn-danger' href="#/">Quit</a>
+    <button class='quit btn btn-large' data-ng-disabled="!isAnswered()" data-ng-click="submitAns()">Next</button>
+    <button class='quit btn btn-large' data-ng-disabled="isAnswered()" class='pass' data-ng-click="next()">Skip</button>
+</footer>

@@ -1,0 +1,86 @@
+{
+  "id": "science-quiz", 
+  "name": "Science Quiz", 
+  "snippet": "The science quiz is an excerpt of questions from <a href=\"ttp://www.quizmoz.com/quizzes/Science-Quizzes/s/Science-Quiz.asp\">QuizMoz Science Quiz</a>. It will test your knowledge of a wide variety of science tidbits – biology, chemistry, astronomy, etc.",
+  "created": "2013-02-08",
+  "questions": [
+    {
+      "question": "What are male bees called?",
+      "answers": [
+        "Drones",
+        "Andrenas",
+        "Colletes",
+        "Workers"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Which planet in our solar system in the largest?",
+      "answers": [
+        "Earth",
+        "The moon",
+        "Saturn",
+        "Jupiter"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "All polarbears are",
+      "answers": [
+        "Left handed",
+        "Right handed",
+        "Ambidextrous"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "What gas is the most common in the Earth's atmosphere?",
+      "answers": [
+        "Oxygen",
+        "Nitrogen",
+        "Helium",
+        "Argon"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What is a mixture or compound dissolved in water called?",
+      "answers": [
+        "Suspension",
+        "Emultion",
+        "Solution",
+        "None of them"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Who is the first man to orbit the earth?",
+      "answers": [
+        "Neil Armstrong",
+        "John Glenn",
+        "Yuri Gagarin"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Who discovered living cell",
+      "answers": [
+        "Rudolf Virchew",
+        "Anton van Leeuwenhoek",
+        "Robert Hooke",
+        "Schleiden"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "The study of plants is called....",
+      "answers": [
+        "Biology",
+        "Life science",
+        "Botany",
+        "Science"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}
