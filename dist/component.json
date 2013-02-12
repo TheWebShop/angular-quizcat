@@ -1,0 +1,9 @@
+{
+  "name": "Angular Quiz Catalog",
+  "version": "0.1.0",
+  "dependencies": {
+    "moment": "~2.0.0",
+    "angular": "~1.0.4",
+    "angular-resource": "~1.0.4"
+  }
+}

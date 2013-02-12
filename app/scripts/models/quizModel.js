@@ -1,6 +1,6 @@
 'use strict';
 
-quizApp.factory('quizModel', function (questionModel) {
+quizApp.factory('quizModel', ['questionModel', function(questionModel) {
     return {
         initialize: function (data) {
             var quizData = {
@@ -18,4 +18,4 @@ quizApp.factory('quizModel', function (questionModel) {
             return quizData;
         }
     };
-});
+}]);

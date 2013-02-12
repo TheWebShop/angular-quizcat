@@ -1,6 +1,6 @@
 'use strict';
 
-function QuizCtrl($rootScope, $scope, $location, $routeParams, Quiz, quizModel) {
+var QuizCtrl = function($rootScope, $scope, $location, $routeParams, Quiz, quizModel) {
 
   $scope.lastScore = $rootScope.lastScore;
 
@@ -45,4 +45,6 @@ function QuizCtrl($rootScope, $scope, $location, $routeParams, Quiz, quizModel) 
   $scope.isReplay = function () {
     return $rootScope.lastScore !== undefined;
   };
-}
+};
+
+QuizCtrl.$inject = ['$rootScope', '$scope', '$location', '$routeParams', 'Quiz', 'quizModel'];
